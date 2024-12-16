@@ -5,16 +5,16 @@
       <![CDATA[HomePage is displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-31T08:29:32 IST" name="Default suite" finished-at="2024-07-31T08:29:42 IST" duration-ms="9723">
+  <suite started-at="2024-12-16T20:29:58 IST" name="Default suite" finished-at="2024-12-16T20:30:09 IST" duration-ms="10717">
     <groups>
     </groups>
-    <test started-at="2024-07-31T08:29:32 IST" name="Default test" finished-at="2024-07-31T08:29:42 IST" duration-ms="9723">
+    <test started-at="2024-12-16T20:29:58 IST" name="Default test" finished-at="2024-12-16T20:30:09 IST" duration-ms="10717">
       <class name="scripts.ValidLogIn">
-        <test-method is-config="true" signature="createReport()[pri:0, instance:scripts.ValidLogIn@1a677343]" started-at="2024-07-31T08:29:32 IST" name="createReport" finished-at="2024-07-31T08:29:32 IST" duration-ms="439" status="PASS">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:scripts.ValidLogIn@1a677343]" started-at="2024-12-16T20:29:57 IST" name="createReport" finished-at="2024-12-16T20:29:58 IST" duration-ms="465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:scripts.ValidLogIn@1a677343]" started-at="2024-07-31T08:29:32 IST" name="preCondition" finished-at="2024-07-31T08:29:37 IST" duration-ms="5008" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:scripts.ValidLogIn@1a677343]" started-at="2024-12-16T20:29:58 IST" name="preCondition" finished-at="2024-12-16T20:30:03 IST" duration-ms="5459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,14 +25,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogIn@1a677343]" started-at="2024-07-31T08:29:37 IST" name="testValidLogin" finished-at="2024-07-31T08:29:40 IST" duration-ms="3097" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogIn@1a677343]" started-at="2024-12-16T20:30:03 IST" name="testValidLogin" finished-at="2024-12-16T20:30:08 IST" duration-ms="4779" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[HomePage is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:scripts.ValidLogIn@1a677343]" started-at="2024-07-31T08:29:40 IST" name="postCondition" finished-at="2024-07-31T08:29:42 IST" duration-ms="1553" status="PASS">
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:scripts.ValidLogIn@1a677343]" started-at="2024-12-16T20:30:08 IST" name="postCondition" finished-at="2024-12-16T20:30:09 IST" duration-ms="371" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:scripts.ValidLogIn@1a677343]" started-at="2024-07-31T08:29:42 IST" name="publishReport" finished-at="2024-07-31T08:29:42 IST" duration-ms="561" status="PASS">
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:scripts.ValidLogIn@1a677343]" started-at="2024-12-16T20:30:09 IST" name="publishReport" finished-at="2024-12-16T20:30:09 IST" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->

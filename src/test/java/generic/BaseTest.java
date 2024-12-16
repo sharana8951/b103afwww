@@ -115,7 +115,8 @@ public class BaseTest
 		else
 		{
 			String path="./target/"+testName+".png";
-		    Utility.getScreenShot(driver,"./target/"+testName+".png");
+		   // Utility.getScreenShot(driver,"./target/"+testName+".png");
+			 Utility.getScreenShot(driver,path);
 		    Media m = MediaEntityBuilder.createScreenCaptureFromPath("./"+testName+".png").build();
 			test.fail(m);
 
