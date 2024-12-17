@@ -21,6 +21,7 @@ public class LoginPage {
 
 	@FindBy(xpath="//div[@class='error']")
 	private WebElement errMsg;
+	
 	public LoginPage(WebDriver driver) 
 	{
 		PageFactory.initElements(driver,this);

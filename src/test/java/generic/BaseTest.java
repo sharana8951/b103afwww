@@ -27,7 +27,7 @@ public class BaseTest
 {
 	public WebDriver driver;
 	public static final String CONFIG_PATH="./config.properties";
-	public static final String REPORT_PATH="./target/report2.html";
+	public static final String REPORT_PATH="./target/report3.html";
 	public static final String EXCEL_PATH="./data/input.xlsx";
 	public WebDriverWait wait;
 	public static ExtentReports extent;
@@ -115,8 +115,8 @@ public class BaseTest
 		else
 		{
 			String path="./target/"+testName+".png";
-		   // Utility.getScreenShot(driver,"./target/"+testName+".png");
-			 Utility.getScreenShot(driver,path);
+		    Utility.getScreenShot(driver,"./target/"+testName+".png");
+			// Utility.getScreenShot(driver,path);
 		    Media m = MediaEntityBuilder.createScreenCaptureFromPath("./"+testName+".png").build();
 			test.fail(m);
 

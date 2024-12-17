@@ -9,7 +9,7 @@ import page.LoginPage;
 
 public class InvalidLogin extends BaseTest
 {
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void testInvalidLogin() 
 	{
 		String un=Utility.getExcelData(EXCEL_PATH, "InvalidLogin", 1, 0);
